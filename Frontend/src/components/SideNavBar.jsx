@@ -24,7 +24,6 @@ const SideNavBar = ({ isSideNavOpen }) => {
         { id: 'dashboard', icon: <DashboardIcon />, label: 'Home' },
         { id: 'profile', icon: <PersonIcon />, label: 'Profile' },
         { id: 'bookings', icon: <BookOnlineIcon />, label: 'Bookings' },
-        { id: 'search', icon: <InventoryIcon />, label: 'Find Services' },
     ];
 
     // Determine view based on user role OR current path (fallback if user state is loading/null)
